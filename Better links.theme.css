@@ -1,10 +1,3 @@
-/**
-* @name Better links
-* @author ARCKE.
-* @version 1.0
-* @description Change the way official links look
-*/
-
 .messageContent-2t3eCI a[href^="https://discord.com/tos"]:not([href^=channels]){font-size:0;line-height:0;text-decoration:none}
 .messageContent-2t3eCI a[href^="https://discord.com/tos"]:not([href^=channels])::after{content:var(--jump-to) " Discord TOS";font-size:11pt !important;line-height:10px !important;color:rgba(255,255,255,.8);background:var(--brand-experiment-30a);transition:background-color 50ms ease-out,color 50ms ease-out;cursor:pointer;border-radius:3px;padding:0 2px;font-weight:500;padding-left:20px}
 .messageContent-2t3eCI a[href^="https://discord.com/tos"]:hover::after{background-color:var(--brand-experiment);color:#fff;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;width:20px;max-width:20px;min-width:20px}
